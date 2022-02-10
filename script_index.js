@@ -1,5 +1,4 @@
 $(document).ready(function() {
-    $("#button_start").click(function(){
         $.ajax({
             url: 'calc.html',
             type: 'GET',
@@ -13,5 +12,4 @@ $(document).ready(function() {
                 alert('Error!');            
             }
         });
-    });
 });
