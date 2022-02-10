@@ -3,10 +3,11 @@ $(document).ready(function() {
             	url: 'calc.html',
             	type: 'GET',
             	beforeSend: function(){
-                	$('#bbody').empty();
+                	$('body').empty();
             	},
             	success: function(responce){        
-                    $('#bbody').append(responce);
+                    $('body').append(responce);
+		},
             	error: function(){
                 	alert('Error!');            
             	}
