@@ -1,5 +1,4 @@
 $(document).ready(function() {
-		$(".calc").css('display', 'none');
 		$.ajax({
             	url: 'calc.html',
             	type: 'GET',
